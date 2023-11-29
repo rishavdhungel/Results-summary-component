@@ -1,2 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;500;700;800&display=swap');
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+    --Lightred: hsl(0, 100%, 67%);
+    --Orangeyyellow: hsl(39, 100%, 56%);
+    --Greenteal: hsl(166, 100%, 37%);
+    --Cobaltblue: hsl(234, 85%, 45%);
+
+    --Light_slate_blue: hsl(252, 100%, 67%);
+    --Light_royal_blue: hsl(241, 81%, 54%);
+    --Violet_blue: hsla(256, 72%, 46%, 1);
+    --Persian_blue: hsla(241, 72%, 46%, 0);
+
+    --Paleblue: hsl(221, 100%, 96%);
+    --Lightlavender: hsl(241, 100%, 89%);
+    --Darkgrayblue: hsl(224, 30%, 27%);
+}
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 150px auto;
+    background-color: white;
+    width: 50%;
+    justify-content:flex-start;
+}
+
+.leftContainer{
+    background-color: var(--Light_slate_blue);
+    border-radius: 20px;
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-title{
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--Lightlavender);
+
+}
+
+.left-container-circle{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Light_slate_blue);
+    border-radius: 50%;
+    padding: 20px;
+    height: fit-content;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    margin: 20px;
+    color: white;
+}
+
+.left-container-circle-value{
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.left-contaner-content{
+    text-align: center;
+    color: var(--Lightlavender);
+    font-weight: 200;
+}
+
+.rightContainer{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 0  10px 10px 0;
+    box-shadow: 20px 20px 15px rgb(171, 164, 164);
+}
+
+.rightContainer-title{
+    color: var(--Darkgrayblue);
+    font-weight: 700;
+}
+
+.right-sub-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0.7;
+    width: 90%;
+    background-color:aliceblue;
+}
+
+.continue-btn{
+    padding: 10px;
+    background-color: var(--Darkgrayblue);
+    color: white;
+    font-weight: 500;
+    border: 1px solid var(--Darkgrayblue);
+    border-radius: 10px;
+}
